@@ -12,6 +12,23 @@ til = ReplyKeyboardMarkup(
   resize_keyboard=True
 )
 
+con = ReplyKeyboardMarkup(
+  keyboard = [
+    [
+    KeyboardButton(text="📞 Telefon raqamingzini yuboring", request_contact=True)
+    ],
+  ],
+  resize_keyboard=True
+)
+loc = ReplyKeyboardMarkup(
+  keyboard = [
+    [
+    KeyboardButton(text="📍 Lokatsiya Yuboring", request_location=True)
+    ],
+  ],
+  resize_keyboard=True
+)
+
 
 
 menyu = ReplyKeyboardMarkup(
@@ -54,8 +71,8 @@ menu = InlineKeyboardMarkup(
 menu1 = InlineKeyboardMarkup(
   inline_keyboard = [
     [
-      InlineKeyboardButton(text="Tovuqli Lavash 🍗",callback_data="tovuq"),
-      InlineKeyboardButton(text="Go'shtli Lavash 🥩",callback_data="gusht")
+      InlineKeyboardButton(text="Tovuq go'shtli lavash 🍗",callback_data="tovuq"),
+      InlineKeyboardButton(text="Mol go'shtli lavash 🥩",callback_data="gusht")
     ],
     [
       InlineKeyboardButton(text="Pishloqli Lavash 🧀",callback_data="sir"),
@@ -321,8 +338,8 @@ menuson6 = InlineKeyboardMarkup(
 menu8 = InlineKeyboardMarkup(
   inline_keyboard = [
     [
-      InlineKeyboardButton(text="🥪 Set 1",callback_data="set1"),
-      InlineKeyboardButton(text="🥪🥪 Set 5",callback_data="set5")
+      InlineKeyboardButton(text="🥪 Chicken Clubsandwich",callback_data="set1"),
+      InlineKeyboardButton(text="🥪 Turkey Clubsandwich",callback_data="set5")
     ],
     [
       InlineKeyboardButton(text="🔙 Orqaga",callback_data="back16")
