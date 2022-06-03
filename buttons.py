@@ -529,7 +529,7 @@ ichimlik_menyu4 = InlineKeyboardMarkup(
 ichimlik_menyu9 = InlineKeyboardMarkup(
     inline_keyboard = [
     [
-        InlineKeyboardButton(text = "🍹 Mojito fresh",callback_data = 'mojito'),InlineKeyboardButton(text = "🧃 Mevali sok",callback_data = "meva")
+        InlineKeyboardButton(text = "🍹 Mojito fresh",callback_data ='mojito'),InlineKeyboardButton(text = "🧃 Mevali sok",callback_data ='meva'),    
     ],
     
     [

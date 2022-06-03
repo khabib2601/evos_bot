@@ -32,14 +32,6 @@ async def uzbek(message):
     await message.answer("<b> Ajoyib! Birgalikda buyurtma beramizmi?👇👇👇</b>",parse_mode="HTML",reply_markup=menyu) #reply_markup=ism
 
 
-
-
-
-
-
-
-
-
 # Buyurtma uchun
 @dp.message_handler(text="🍽Menu")
 async def menu_uchun(message: types.Message):
