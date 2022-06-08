@@ -258,7 +258,7 @@ async def bosh_menu7(call: CallbackQuery):
 
 
 
-# ICHIMLIKLAR ?????????????????????????????????????????
+# ICHIMLIKLAR
 
 @dp.callback_query_handler(text="ichimliklar")
 async def suv(call:CallbackQuery):
@@ -402,8 +402,6 @@ async def suv(call:CallbackQuery):
 async def suv(call:CallbackQuery):
     await call.message.answer("<b>Kategoriyani tanlang</b>",parse_mode = 'HTML',reply_markup = ichimlik_menyu10)
 
-
-
 @dp.callback_query_handler(text="orqaga8")
 async def suv(call:CallbackQuery):
     await call.message.answer("<b>Kategoriyani tanlang</b>",parse_mode = 'HTML',reply_markup = ichimlik_menyu1)
@@ -430,7 +428,6 @@ async def suv(call:CallbackQuery):
 async def suv(call:CallbackQuery):
     await call.message.answer("<b>Kategoriyani tanlang</b>",parse_mode = 'HTML',reply_markup = ichimlik_menyu4)
 
-
 @dp.callback_query_handler(text="orqaga17")
 async def suv(call:CallbackQuery):
     await call.message.answer("<b>Kategoriyani tanlang</b>",parse_mode = 'HTML',reply_markup = ichimlik_menyu4)
@@ -446,12 +443,6 @@ async def suv(call:CallbackQuery):
 @dp.callback_query_handler(text="orqaga20")
 async def suv(call:CallbackQuery):
     await call.message.answer("<b>Kategoriyani tanlang</b>",parse_mode = 'HTML',reply_markup = ichimlik_menyu9)
-
-
-
-
-
-
 
 ################# BACKLAR ########################
 
@@ -577,14 +568,6 @@ async def ortga1(call: CallbackQuery):
 @dp.callback_query_handler(text="back21")
 async def ortga1(call: CallbackQuery):
     await call.message.answer("Turini Tanlang....",reply_markup=menu10)
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
